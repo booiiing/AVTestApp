@@ -111,11 +111,12 @@
             
             [self.audioPlayer release];
         }
-            
+        
+        NSData *audioData=[NSData dataWithContentsOfURL:self.audioRecorder.url];
+        
         NSError *error;
         self.audioPlayer = [[AVAudioPlayer alloc] 
-                       initWithContentsOfURL:self.audioRecorder.url                                    
-                       error:&error];
+                       initWithData:audioData error:&error];
         
         self.audioPlayer.delegate = self;
         
