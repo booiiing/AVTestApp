@@ -36,7 +36,7 @@
     NSDictionary *recordSettings = [NSDictionary 
                                     dictionaryWithObjectsAndKeys:
                                     [NSNumber numberWithInt:AVAudioQualityMin], 
-                                    AVEncoderBitRateKey,
+                                    AVEncoderAudioQualityKey,
                                     [NSNumber numberWithInt: 1], 
                                     AVNumberOfChannelsKey,
                                     [NSNumber numberWithFloat:16000.0], 
