@@ -35,14 +35,14 @@
     
     NSDictionary *recordSettings = [NSDictionary 
                                     dictionaryWithObjectsAndKeys:
-                                    [NSNumber numberWithInt:AVAudioQualityMin],
-                                    AVEncoderAudioQualityKey,
-                                    [NSNumber numberWithInt:16], 
+                                    [NSNumber numberWithInt:AVAudioQualityMin], 
                                     AVEncoderBitRateKey,
-                                    [NSNumber numberWithInt: 2], 
+                                    [NSNumber numberWithInt: 1], 
                                     AVNumberOfChannelsKey,
-                                    [NSNumber numberWithFloat:44100.0], 
+                                    [NSNumber numberWithFloat:16000.0], 
                                     AVSampleRateKey,
+                                    [NSNumber numberWithInt:kAudioFormatAppleIMA4],
+                                    AVFormatIDKey,
                                     nil];
     
     NSError *error = nil;
