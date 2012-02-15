@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83BF20CA14EA68750002C3F6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BF20C914EA68750002C3F6 /* UIKit.framework */; };
+		83BF20CC14EA68750002C3F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BF20CB14EA68750002C3F6 /* Foundation.framework */; };
+		83BF20CE14EA68750002C3F6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BF20CD14EA68750002C3F6 /* CoreGraphics.framework */; };
+		83BF20D414EA68750002C3F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83BF20D214EA68750002C3F6 /* InfoPlist.strings */; };
+		83BF20D614EA68750002C3F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BF20D514EA68750002C3F6 /* main.m */; };
+		83BF20DA14EA68750002C3F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BF20D914EA68750002C3F6 /* AppDelegate.m */; };
+		83BF20DD14EA68760002C3F6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83BF20DB14EA68760002C3F6 /* MainStoryboard.storyboard */; };
+		83BF20E014EA68760002C3F6 /* RecordAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BF20DF14EA68760002C3F6 /* RecordAudioViewController.m */; };
+		83BF20E214EA68760002C3F6 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BF20E114EA68760002C3F6 /* first.png */; };
+		83BF20E414EA68760002C3F6 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BF20E314EA68760002C3F6 /* first@2x.png */; };
+		83BF20E714EA68760002C3F6 /* PickPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BF20E614EA68760002C3F6 /* PickPhotoViewController.m */; };
+		83BF20E914EA68760002C3F6 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BF20E814EA68760002C3F6 /* second.png */; };
+		83BF20EB14EA68760002C3F6 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83BF20EA14EA68760002C3F6 /* second@2x.png */; };
+		83BF20F214EA68D80002C3F6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BF20F114EA68D80002C3F6 /* AVFoundation.framework */; };
+		83BF20F414EA71670002C3F6 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BF20F314EA71670002C3F6 /* MobileCoreServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83BF20C514EA68750002C3F6 /* AVTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83BF20C914EA68750002C3F6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83BF20CB14EA68750002C3F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83BF20CD14EA68750002C3F6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83BF20D114EA68750002C3F6 /* AVTestApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AVTestApp-Info.plist"; sourceTree = "<group>"; };
+		83BF20D314EA68750002C3F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83BF20D514EA68750002C3F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83BF20D714EA68750002C3F6 /* AVTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AVTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		83BF20D814EA68750002C3F6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83BF20D914EA68750002C3F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83BF20DC14EA68760002C3F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		83BF20DE14EA68760002C3F6 /* RecordAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordAudioViewController.h; sourceTree = "<group>"; };
+		83BF20DF14EA68760002C3F6 /* RecordAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordAudioViewController.m; sourceTree = "<group>"; };
+		83BF20E114EA68760002C3F6 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		83BF20E314EA68760002C3F6 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		83BF20E514EA68760002C3F6 /* PickPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickPhotoViewController.h; sourceTree = "<group>"; };
+		83BF20E614EA68760002C3F6 /* PickPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickPhotoViewController.m; sourceTree = "<group>"; };
+		83BF20E814EA68760002C3F6 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		83BF20EA14EA68760002C3F6 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		83BF20F114EA68D80002C3F6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		83BF20F314EA71670002C3F6 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83BF20C214EA68750002C3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BF20F414EA71670002C3F6 /* MobileCoreServices.framework in Frameworks */,
+				83BF20F214EA68D80002C3F6 /* AVFoundation.framework in Frameworks */,
+				83BF20CA14EA68750002C3F6 /* UIKit.framework in Frameworks */,
+				83BF20CC14EA68750002C3F6 /* Foundation.framework in Frameworks */,
+				83BF20CE14EA68750002C3F6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83BF20BA14EA68750002C3F6 = {
+			isa = PBXGroup;
+			children = (
+				83BF20CF14EA68750002C3F6 /* AVTestApp */,
+				83BF20C814EA68750002C3F6 /* Frameworks */,
+				83BF20C614EA68750002C3F6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83BF20C614EA68750002C3F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83BF20C514EA68750002C3F6 /* AVTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83BF20C814EA68750002C3F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83BF20F314EA71670002C3F6 /* MobileCoreServices.framework */,
+				83BF20F114EA68D80002C3F6 /* AVFoundation.framework */,
+				83BF20C914EA68750002C3F6 /* UIKit.framework */,
+				83BF20CB14EA68750002C3F6 /* Foundation.framework */,
+				83BF20CD14EA68750002C3F6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83BF20CF14EA68750002C3F6 /* AVTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				83BF20D814EA68750002C3F6 /* AppDelegate.h */,
+				83BF20D914EA68750002C3F6 /* AppDelegate.m */,
+				83BF20DB14EA68760002C3F6 /* MainStoryboard.storyboard */,
+				83BF20DE14EA68760002C3F6 /* RecordAudioViewController.h */,
+				83BF20DF14EA68760002C3F6 /* RecordAudioViewController.m */,
+				83BF20E114EA68760002C3F6 /* first.png */,
+				83BF20E314EA68760002C3F6 /* first@2x.png */,
+				83BF20E514EA68760002C3F6 /* PickPhotoViewController.h */,
+				83BF20E614EA68760002C3F6 /* PickPhotoViewController.m */,
+				83BF20E814EA68760002C3F6 /* second.png */,
+				83BF20EA14EA68760002C3F6 /* second@2x.png */,
+				83BF20D014EA68750002C3F6 /* Supporting Files */,
+			);
+			path = AVTestApp;
+			sourceTree = "<group>";
+		};
+		83BF20D014EA68750002C3F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83BF20D114EA68750002C3F6 /* AVTestApp-Info.plist */,
+				83BF20D214EA68750002C3F6 /* InfoPlist.strings */,
+				83BF20D514EA68750002C3F6 /* main.m */,
+				83BF20D714EA68750002C3F6 /* AVTestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83BF20C414EA68750002C3F6 /* AVTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83BF20EE14EA68760002C3F6 /* Build configuration list for PBXNativeTarget "AVTestApp" */;
+			buildPhases = (
+				83BF20C114EA68750002C3F6 /* Sources */,
+				83BF20C214EA68750002C3F6 /* Frameworks */,
+				83BF20C314EA68750002C3F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AVTestApp;
+			productName = AVTestApp;
+			productReference = 83BF20C514EA68750002C3F6 /* AVTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83BF20BC14EA68750002C3F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 83BF20BF14EA68750002C3F6 /* Build configuration list for PBXProject "AVTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83BF20BA14EA68750002C3F6;
+			productRefGroup = 83BF20C614EA68750002C3F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83BF20C414EA68750002C3F6 /* AVTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83BF20C314EA68750002C3F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BF20D414EA68750002C3F6 /* InfoPlist.strings in Resources */,
+				83BF20DD14EA68760002C3F6 /* MainStoryboard.storyboard in Resources */,
+				83BF20E214EA68760002C3F6 /* first.png in Resources */,
+				83BF20E414EA68760002C3F6 /* first@2x.png in Resources */,
+				83BF20E914EA68760002C3F6 /* second.png in Resources */,
+				83BF20EB14EA68760002C3F6 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83BF20C114EA68750002C3F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83BF20D614EA68750002C3F6 /* main.m in Sources */,
+				83BF20DA14EA68750002C3F6 /* AppDelegate.m in Sources */,
+				83BF20E014EA68760002C3F6 /* RecordAudioViewController.m in Sources */,
+				83BF20E714EA68760002C3F6 /* PickPhotoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83BF20D214EA68750002C3F6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83BF20D314EA68750002C3F6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83BF20DB14EA68760002C3F6 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83BF20DC14EA68760002C3F6 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83BF20EC14EA68760002C3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83BF20ED14EA68760002C3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83BF20EF14EA68760002C3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVTestApp/AVTestApp-Prefix.pch";
+				INFOPLIST_FILE = "AVTestApp/AVTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83BF20F014EA68760002C3F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AVTestApp/AVTestApp-Prefix.pch";
+				INFOPLIST_FILE = "AVTestApp/AVTestApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83BF20BF14EA68750002C3F6 /* Build configuration list for PBXProject "AVTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BF20EC14EA68760002C3F6 /* Debug */,
+				83BF20ED14EA68760002C3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83BF20EE14EA68760002C3F6 /* Build configuration list for PBXNativeTarget "AVTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83BF20EF14EA68760002C3F6 /* Debug */,
+				83BF20F014EA68760002C3F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83BF20BC14EA68750002C3F6 /* Project object */;
+}
